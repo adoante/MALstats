@@ -1,0 +1,328 @@
+﻿body{
+    background-color: #eaf4ff;
+    width: 95%;
+} .body {
+    width: 1060px;
+    margin: 0 auto;
+    font-family: Arial;
+} .header{
+	float:left;
+	margin-bottom: 10px;
+} .title{
+	height: 56px;
+	padding: 10px 0 2px;
+	position: relative;
+} .menu {
+	background-color: #3355cc;
+	height: 34px;
+	width: 1060px;
+	float:left;
+} .nav {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+} .nav li {
+	display: block;
+	float: left;
+	position: relative;
+	text-indent: 5px;
+	color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+	padding-top: 8px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: center;
+	height: 26px;
+} .search {
+	display: inline-block;
+    position: relativ;
+	height: 234px;
+    float: right;
+	margin-top: 6px;
+	margin-right: 8px;
+}
+ .info {
+    position: relative;
+    width: 400px;
+    padding: 0px;
+    margin-left: 0px;
+    margin-bottom: 25px;
+    float: left;
+    clear: left;
+} .info2 {
+    position: relative;
+    width: 350px;
+    padding: 0px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    margin-top: 3px;
+    float: left;
+} .info a, .info2 a {
+    font-weight: bold;
+}  .info table, .info2 table {
+    border-color: #eaf4ff;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    table-layout: fixed;
+} .info th, .info2 th {
+    background-color: #d6eaff;
+    border:0;
+    height: 30px;
+    margin: 0px
+    padding: 0px;
+    color: #3355cc;
+    font-size: 18px;
+    font-family: Arial;
+    font-weight: bold;
+    text-align: left;
+} .info td {
+	vertical-align:middle;	
+	border:0px;
+	text-align:left;
+	padding:3px;
+	font-size:16px;
+	font-family:Arial;
+	font-weight:normal;
+	color: #000000;
+}  .search2 {
+    position: relativ;
+    padding: 0px;
+    margin-right: 2px;
+    margin-top: 20px;
+    float: right;
+} .load_more {
+	border-radius: 7px;
+    position: relativ;
+    background-color: #3355cc;
+    padding: 5px;
+    margin-left: 2px;
+	margin-top: 2px;
+	margin-bottom: 5px;
+    float: left;
+    clear: both;
+} .back {
+	border-radius: 7px;
+    position: relativ;
+    background-color: #3355cc;
+    padding: 5px;
+    margin-left: 2px;
+	margin-top: 2px;
+    float: left;
+    clear: both;
+} .back a, .next a, .load_more a, .nav li a{
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+} .back:hover, .next:hover, .load_more:hover, .nav li:hover {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #6666ff;
+} .next {
+	border-radius: 7px;
+    position: relativ;
+    background-color: #3355cc;
+    padding: 5px;
+    margin-right: 2px;
+	margin-top: 2px;
+    float: right;
+} h1 {
+	color: #3355cc;
+	font-family: 'Raleway', sans-serif;
+	font-size: 40px;
+	font-weight: 800;
+	line-height: 56px;
+	margin: 0px 0px 15px;
+	text-align: left;
+	width: 500px;
+	float:left;
+} h1 a {
+    color: #3355cc;
+    text-decoration: none;
+}  h2 {
+	position: relative;
+	float: left;
+	color: #3355cc;
+	font-family: 'Raleway', sans-serif;
+	font-size: 30px;
+	font-weight: 900;
+	margin: 0px 0px 15px;
+	text-align: left;
+	clear: both;
+} .users, .anime {
+	position:relative;
+	float:left;
+} h3 {
+	position: relative;
+	float: left;
+	color: #3355cc;
+	font-family: 'Raleway', sans-serif;
+	font-size: 26px;
+	font-weight: 600;
+	margin: 15px 15px 15px;
+	text-align: left;
+	clear: both;
+} .faqText {
+	position: relative;
+	float: left;
+	color: #000000;
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+	margin: 0px 15px 15px;
+	text-align: left;
+	clear: both;
+} .faqBox {
+	position: relative;
+	width:100%;
+	float: left;
+	background-color: #d6eaff;
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+	margin: 15px 15px 5px;
+	text-align: left;
+	clear: both;
+} .allWeek {
+	position: relative;
+	width: 240px;
+	float: right;
+	color: #3355cc;
+	margin-top: 15px;
+	text-align: left;
+} .allWeek td {
+	width: 120px;
+	text-align:middle;
+} .allWeek .active {
+	color: #3355cc;
+	font-weight: 900;
+} .allWeek a {
+	color: #3355cc;
+	text-decoration: none;
+	color: #3355cc;
+} .allWeek a:hover {
+	color: #3355cc;
+	text-decoration: none;
+	font-weight: 900;
+} .allWeek a:visited {
+	color: #3355cc;
+	text-decoration: none;
+	font-weight: 900;
+} .left {
+	position: relative;
+	float:left; 
+	margin-bottom: 25px;
+	margin-top: 25px;
+	clear:both;
+} th a {
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+} .anime th:nth-child(3):hover, .anime th:nth-child(4):hover, .anime th:nth-child(5):hover, .anime th:nth-child(6):hover, .anime th:nth-child(7):hover {
+    background-color: #6666ff;
+} td a {
+    color: #000000;
+    text-decoration: none;
+} td a:hover {
+    color: #000000;
+    text-decoration: underline;
+} table {
+    border-color: #eaf4ff;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    table-layout: fixed;
+} th {
+    background-color: #3355cc;
+    border-collapse: collapse;
+    border-spacing: 0;
+    height: 30px;
+    margin: 0px
+    padding: 0px;
+    color: #ffffff;
+    font-size: 18px;
+    font-family: Arial;
+    font-weight: bold;
+} tr:nth-child(odd) {
+	background-color:#d6eaff;
+} tr:nth-child(even) {
+	background-color:#eaf4ff;
+} td {
+	vertical-align:middle;
+	width: 200px;	
+	border:0px solid #eaf4ff;
+	border-width:0px 0px 0px 0px;
+	text-align:left;
+	padding:3px;
+	font-size:16px;
+	font-family:Arial;
+	font-weight:normal;
+	color: #000000;
+} .anime td:nth-child(1), .anime2 td:nth-child(1){
+    font-size: 40px;
+    font-family: Arial;
+    font-weight: bold;
+	text-align: center;
+	width: 90px;
+} .anime th:nth-child(2), .anime2 th:nth-child(2) {
+	width: 81px;
+} .anime th:nth-child(3), .anime2 th:nth-child(3) {
+	width: 400px;
+} .users th:nth-child(1), .users td:nth-child(1) {
+	width: 50px;
+	text-align: center;
+} .userscores th:nth-child(1), .userscores th:nth-child(4){
+	width: 60px;
+} .userscores th:nth-child(5){
+	width: 180px;
+} .userscores th:nth-child(6){
+	width: 180px;
+}.graph {
+	position: relative;
+	float: right;
+	width: 400px;
+	margin-left: 0px;
+	margin-top: 0px;
+	background-color: #d6eaff;
+} .balken {
+	background-color: #66aa66;
+	text-align: right;
+} .foot {
+	position: relative;
+	float: left;
+	margin-top: 40px;
+	margin-bottom: 20px;
+	background-color: #d6eaff;
+	width: 100%;
+	padding: 5px;
+	padding-left: 20px;
+} .donate {
+	position: relative;
+	float: right;
+} .favChars {
+    position: relative;
+    width: 225px;
+    padding: 0px;
+    margin-left: 0px;
+    margin-bottom: 25px;
+    margin-top: 0px;
+    float: left;
+} .favChars table {
+    border-color: #eaf4ff;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    table-layout: fixed;
+} .favChars th {
+    background-color: #d6eaff;
+    border:0;
+    height: 30px;
+    margin: 0px;
+    padding: 0px;
+    color: #3355cc;
+    font-size: 18px;
+    font-family: Arial;
+    font-weight: bold;
+    text-align: left;
+}
