@@ -9,3 +9,4 @@ Total Completed Anime: 4458030
 
 AVG Completed Anime: 317
 
+Used [Jikan API: UNOFFICIAL MYANIMELIST API](https://kijan.moe)
