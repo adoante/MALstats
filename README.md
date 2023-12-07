@@ -1,4 +1,4 @@
-# Average Completed Anime
+# MAL Stats 
 
 Data based on [Reddit Anime List](http://www.redditanimelist.net/users.php) 
 and [My Anime List](https://myanimelist.net/)
