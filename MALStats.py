@@ -7,11 +7,16 @@ File_object.close()
 
 counts = {'days_watched': 0, 'mean_score': 0, 'watching': 0, 'completed': 0, 'on_hold': 0, 'dropped': 0, 'plan_to_watch': 0, 'total_entries': 0, 'rewatched': 0, 'episodes_watched': 0}
 
-# fail one
-counts = {'days_watched': 98835.19999999991, 'mean_score': 8008.869999999998, 'watching': 15668, 'completed': 343050, 'on_hold': 15298, 'dropped': 29185, 'plan_to_watch': 131376, 'total_entries': 534577, 'rewatched': 16278, 'episodes_watched': 5996659}
-
-#fail two
-counts = {'days_watched': 580909.4999999993, 'mean_score': 46744.1700000001, 'watching': 102323, 'completed': 2026789, 'on_hold': 93141, 'dropped': 177821, 'plan_to_watch': 780179, 'total_entries': 3180253, 'rewatched': 94278, 'episodes_watched': 35169050}
+days_watched = []
+mean_score = []
+watching = [] 
+completed = []
+on_hold = []
+dropped = []
+plan_to_watch = []
+total_entries = []
+rewatched = []
+episodes_watched = []
 
 cnt = 0;
 
@@ -26,27 +31,16 @@ for users in user_list:
 	try:
 		anime_data = data['data']['anime']
 
-		File_object = open(r"all_data.txt", "a")
-
-		File_object.write(str(cnt) + ": " + users.strip() + ": ")
-
-		File_object.write(str(anime_data) + "\n")
-		File_object.close()
-
-		counts['days_watched'] = counts['days_watched'] + anime_data['days_watched']
-		counts['mean_score'] = counts['mean_score'] + anime_data['mean_score']
-		counts['watching'] = counts['watching'] + anime_data['watching']
-		counts['completed'] = counts['completed'] + anime_data['completed']
-		counts['on_hold'] = counts['on_hold'] + anime_data['on_hold']
-		counts['dropped'] = counts['dropped'] + anime_data['dropped']
-		counts['plan_to_watch'] = counts['plan_to_watch'] + anime_data['plan_to_watch']
-		counts['total_entries'] = counts['total_entries'] + anime_data['total_entries']
-		counts['rewatched'] = counts['rewatched'] + anime_data['rewatched']
-		counts['episodes_watched'] = counts['episodes_watched'] + anime_data['episodes_watched']
-
-		file_obj = open(r"data_counts.txt", "w")
-		file_obj.write(str(counts))
-		file_obj.close()
+		days_watched.append(anime_data['days_watched'])
+		mean_score.append(anime_data['mean_score'])
+		watching.append(anime_data['watching'])
+		completed.append(anime_data['completed'])
+		on_hold.append(anime_data['on_hold'])
+		dropped.append(anime_data['dropped'])
+		plan_to_watch.append(anime_data['plan_to_watch'])
+		total_entries.append(anime_data['total_entries'])
+		rewatched.append(anime_data['rewatched'])
+		episodes_watched.append(anime_data['episodes_watched'])
 
 		cnt = cnt+1
 	except:
@@ -55,3 +49,17 @@ for users in user_list:
 
 	time.sleep(0.5)
 
+File_object = open(r"all_data_formated.txt", "a")
+
+File_object.write(days_watched)
+File_object.write(mean_score)
+File_object.write(watching)
+File_object.write(completed)
+File_object.write(on_hold)
+File_object.write(dropped)
+File_object.write(plan_to_watch)
+File_object.write(total_entries)
+File_object.write(rewatched)
+File_object.write(episodes_watched)
+
+File_object.close()
